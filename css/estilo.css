@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+img{
+    width: 100%;
+}
+
+li, a {
+    font-family: 'Phudu', cursive;
+    font-size: 15px;
+    color: #F4A80C;
+    text-decoration: none;
+    justify-items: center;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+   
+}
+
+.logo{
+    justify-content: flex-start;
+    width: 20%;
+}
+.navLinks{
+    list-style-type: none;
+}
+
+.navLinks li{
+    display: inline-block;
+    margin: 20px;
+    padding: 0px 20px;
+    justify-items: center;
+    
+}
+
+
+body{
+    font-family: 'Nunito Sans', sans-serif;;
+    font-size: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+}
+
+body img{
+    width: 50%;
+    margin-left: 25%;
+}
+body h1{
+    font-family: Myriad Pro;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+body p{
+    text-align: center;
+    margin: 30px;
+}
+
+body h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+
+/* article{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+article h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+
+
+ */
+aside{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.publicidades{
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+.botonWhatsApp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 10%;
+}
+
+
+
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(143, 22, 143);
+}
+
+
+
+.footer .texto {
+   font-size: 15px;
+   margin: 20px;
+   border: 5px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+ 
+
+
+
+    
+    
+
+/* 
+IMPORTANTE
+Color de reico: 
+violeta: #A3559B
+naranja: #F4A80C 
+
+Tipografía es : Myriad Pro
+
+*/
